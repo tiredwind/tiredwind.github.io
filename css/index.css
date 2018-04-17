@@ -139,27 +139,56 @@
   text-decoration: underline;
 }
 
-/* ======== 主题样式 ======== */
+/* ======== 底边样式 ======== */
 .side {
   position: absolute;
   z-index: 998;
-  width: 600px;
-  height: 950px;
+  width: 1920px;
+  height: 300px;
   right: 0;
-  top: 0;
-  background: url(../images/bg-side.png);
+  bottom: 0;
 }
-.side .side-header{
+
+.side .side-left {
   position: relative;
-  width: 250px;
-  height: 250px;
-  margin-top: 100px;
-  margin-left: 295px;
-  background: url(../images/side-header.png);
+  float: left;
+  width: 200px;
+  height: 230px;
+  margin-top: 20px;
+  margin-left: 100px;
 }
-.side .side-name{
-position: relative;
-  margin-top: 560;
-  margin-left: 370px;
+
+.side .side-header {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  }
+  
+.side .side-name {
+  position: relative;
+  margin-left: 55px;
+  margin-bottom: 5px;
   font-size: 30px;
+}
+
+.side .sign {
+  position: relative;
+  float: right;
+  width: 1200px;
+  height: 300px;
+}
+.side .sign .downwards {
+  position: absolute;
+  width: 70px;
+  height: 46px;
+  right: 925px;
+  bottom: 20px;
+  background: url(../images/side_downwards.png);
+}
+.side .sign .signnature {
+  position: absolute;
+  bottom: 200px;
+  right: 65%;
+  color: aliceblue;
+  font-size: 50px;
 }
