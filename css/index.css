@@ -143,7 +143,7 @@
 .side {
   position: absolute;
   z-index: 998;
-  width: 1920px;
+  width: 100%;
   height: 300px;
   right: 0;
   bottom: 0;
@@ -171,24 +171,21 @@
   font-size: 30px;
 }
 
-.side .sign {
+.side .downwards {
   position: relative;
-  float: right;
-  width: 1200px;
-  height: 300px;
-}
-.side .sign .downwards {
-  position: absolute;
   width: 70px;
   height: 46px;
-  right: 925px;
-  bottom: 20px;
+  margin: 0 auto;
+  bottom: -170px;
   background: url(../images/side_downwards.png);
 }
-.side .sign .signnature {
-  position: absolute;
-  bottom: 200px;
-  right: 65%;
+.side .signnature {
+  position: relative;
+  width: 800px;
+  height: 60px;
   color: aliceblue;
   font-size: 50px;
+  margin: 0 auto;
+  bottom: -100px;
+  text-align: center;
 }
