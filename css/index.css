@@ -149,6 +149,7 @@
   bottom: 0;
 }
 
+/* ======== 头像和名字 ======== */
 .side .side-left {
   position: relative;
   float: left;
@@ -171,6 +172,7 @@
   font-size: 30px;
 }
 
+/* ======== 箭头和个签 ======== */
 .side .downwards {
   position: relative;
   width: 70px;
@@ -188,4 +190,30 @@
   margin: 0 auto;
   bottom: -100px;
   text-align: center;
+}
+
+/* ======== 页脚样式 ======== */
+.footer {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #FEDA70;
+}
+.footer .container {
+  width: 1200px;
+  height: 180px;
+  margin: 0 auto;
+}
+.footer .logos {
+  width: 300px;
+  height: 70px;
+  margin: 0 auto;
+}
+.footer .contact {
+  height: 40px;
+  float: left;
+  margin-top: 5% ;
+  margin-left: 2.5%;
+  width: 30%; 
 }
